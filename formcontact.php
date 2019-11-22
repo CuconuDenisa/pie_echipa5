@@ -122,7 +122,7 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 
 <form id="form1" id="form1" action="formcontact.php" method="POST">
 
-    <label>Name
+    <label>Nume
         <span class="small">Adauga numele:</span>
     </label>
 <input type="text" name="nume">
