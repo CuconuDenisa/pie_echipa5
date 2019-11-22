@@ -47,7 +47,9 @@ CREATE TABLE IF NOT EXISTS `biochimie` (
 CREATE TABLE IF NOT EXISTS `contact` (
   `nume` varchar(50) DEFAULT NULL,
   `prenume` varchar(50) DEFAULT NULL,
+  `email` varchar(50) DEFAULT NULL,
   `oras` varchar(50) DEFAULT NULL,
+  `telefon` varchar(50) DEFAULT NULL,
   `subiect` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
