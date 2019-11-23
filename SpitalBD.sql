@@ -130,7 +130,7 @@ CREATE TABLE IF NOT EXISTS `pacient` (
   `strada` varchar(50) DEFAULT NULL,
   `numarstrada` int(11) DEFAULT NULL,
   `datanasterii` varchar(50) DEFAULT NULL,
-  `sex` varchar(50) DEFAULT NULL,
+  `gen` varchar(50) DEFAULT NULL,
   `telefon` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
   `parola` varchar(50) DEFAULT NULL,
