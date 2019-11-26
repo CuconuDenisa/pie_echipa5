@@ -134,9 +134,7 @@ CREATE TABLE IF NOT EXISTS `pacient` (
   `telefon` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
   `parola` varchar(50) DEFAULT NULL,
-  `codfunctie` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`codpacient`),
-  KEY `codfunctie` (`codfunctie`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
