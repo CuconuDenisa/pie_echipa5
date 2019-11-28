@@ -158,10 +158,5 @@ if(isset($_POST['Stergeti_pacient'])){
     <button class="float-left submit-button" style="background-color:white;color:black;width:70px;">Diagrama</button>
 </form>
 <br>
-Afisare Istoric Internari:
-	 <form action="istoricpacienti.php" class="inline">
-    <button class="float-left submit-button" style="background-color:white;color:black;width:70px;">Istoric</button>
-</form>
 </body>
 </html>
-
