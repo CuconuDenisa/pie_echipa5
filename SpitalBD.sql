@@ -18,7 +18,7 @@ USE `pie`;
 
 -- Dumping structure for table pie.analize
 CREATE TABLE IF NOT EXISTS `analize` (
-  `codanalize` int(11) NOT NULL,
+  `codanalize` int(11) NOT NULL AUTO_INCREMENT,
   `datarecoltarii` varchar(50) DEFAULT NULL,
   `dataefectuarii` varchar(50) DEFAULT NULL,
   `varsta` int(11) DEFAULT NULL,
@@ -26,10 +26,10 @@ CREATE TABLE IF NOT EXISTS `analize` (
   `proba` varchar(50) DEFAULT NULL,
   `receptie` varchar(50) DEFAULT NULL,
   `opiniisiinterpretari` varchar(50) DEFAULT NULL,
-  `codbiochmie` int(11) DEFAULT NULL,
+  `codbiochimie` int(11) DEFAULT NULL,
   PRIMARY KEY (`codanalize`),
-  KEY `codbiochmie` (`codbiochmie`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  KEY `codbiochmie` (`codbiochimie`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table pie.biochimie
@@ -72,7 +72,7 @@ CREATE TABLE IF NOT EXISTS `doctori` (
 -- Data exporting was unselected.
 -- Dumping structure for table pie.fisaconsultatie
 CREATE TABLE IF NOT EXISTS `fisaconsultatie` (
-  `codfisa` int(11) NOT NULL,
+  `codfisa` int(11) NOT NULL AUTO_INCREMENT,
   `motiveprezentare` varchar(50) DEFAULT NULL,
   `grupasange` varchar(50) DEFAULT NULL,
   `tipsistemnervos` varchar(50) DEFAULT NULL,
@@ -84,7 +84,7 @@ CREATE TABLE IF NOT EXISTS `fisaconsultatie` (
   `afectiunidigestive` varchar(50) DEFAULT NULL,
   `afectiunicardiovasculare` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`codfisa`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table pie.functie
@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS `functie` (
 -- Data exporting was unselected.
 -- Dumping structure for table pie.internari
 CREATE TABLE IF NOT EXISTS `internari` (
-  `codinternari` int(11) NOT NULL,
+  `codinternari` int(11) NOT NULL AUTO_INCREMENT,
   `datainternarii` varchar(50) DEFAULT NULL,
   `orainternarii` varchar(50) DEFAULT NULL,
   `codsectie` int(11) DEFAULT NULL,
@@ -109,7 +109,7 @@ CREATE TABLE IF NOT EXISTS `internari` (
   KEY `codpacient` (`codpacient`),
   KEY `codanalize` (`codanalize`),
   KEY `codfisaconsultatie` (`codfisaconsultatie`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table pie.logare
@@ -122,11 +122,11 @@ CREATE TABLE IF NOT EXISTS `logare` (
 -- Data exporting was unselected.
 -- Dumping structure for table pie.pacient
 CREATE TABLE IF NOT EXISTS `pacient` (
-  `codpacient` int(11) NOT NULL,
+  `codpacient` int(11) NOT NULL AUTO_INCREMENT,
   `nume` varchar(50) DEFAULT NULL,
   `prenume` varchar(50) DEFAULT NULL,
   `cnp` bigint(20) DEFAULT NULL,
-  `Oras` varchar(50) DEFAULT NULL,
+  `oras` varchar(50) DEFAULT NULL,
   `strada` varchar(50) DEFAULT NULL,
   `numarstrada` int(11) DEFAULT NULL,
   `datanasterii` varchar(50) DEFAULT NULL,
@@ -134,8 +134,8 @@ CREATE TABLE IF NOT EXISTS `pacient` (
   `telefon` varchar(50) DEFAULT NULL,
   `email` varchar(50) DEFAULT NULL,
   `parola` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`codpacient`),
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  PRIMARY KEY (`codpacient`)
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 -- Data exporting was unselected.
 -- Dumping structure for table pie.rezervari
@@ -154,13 +154,14 @@ CREATE TABLE IF NOT EXISTS `rezervari` (
 -- Data exporting was unselected.
 -- Dumping structure for table pie.sectie
 CREATE TABLE IF NOT EXISTS `sectie` (
-  `codsectie` int(11) NOT NULL,
+  `codsectie` int(11) NOT NULL AUTO_INCREMENT,
   `denumire` varchar(50) DEFAULT NULL,
   `specializarea` varchar(50) DEFAULT NULL,
   `camera` int(11) DEFAULT NULL,
   `etaj` int(11) DEFAULT NULL,
   PRIMARY KEY (`codsectie`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+
 
 -- Data exporting was unselected.
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
