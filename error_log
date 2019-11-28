@@ -1,0 +1,21 @@
+[28-Nov-2019 15:00:01 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/analize.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 64
+[28-Nov-2019 15:09:30 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/analize.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 64
+[28-Nov-2019 15:12:26 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/nininexloc/public_html/pie/analize.php on line 148
+[28-Nov-2019 15:15:06 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/istoricpacienti.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/istoricpacienti.php on line 61
+[28-Nov-2019 15:33:42 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/internare.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/internare.php on line 52
+[28-Nov-2019 15:34:52 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/internare.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/internare.php on line 37

@@ -1,9 +1,9 @@
 <?php
 class Conexiune{
 	private $servername ="localhost";
-	private $username="root";
-	private $password="";
-	private $dbname="pie";
+	private $username="nininexloc_pie";
+	private $password="L~%XIZCefEeZ";
+	private $dbname="nininexloc_pie";
 	protected $con;
 	public function openConnection()
 	{
