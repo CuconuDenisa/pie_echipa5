@@ -20,13 +20,24 @@ include("header.php");
         <div class="container">
             <div class="row showcase-section">
                 <div class="col-md-6">
-                    <img src="img/dev1.png" alt="showcase image">
+                    <img src="img/despre.jpg" class="img-despre" alt="showcase image">
                 </div>
                 <div class="col-md-6">
                     <div class="about-text">
                         <h3>Spitalul nostru</h3>
-                        <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Vivamus suscipit tortor eget felis porttitor volutpat. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar.</p>
-                        <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..</p>
+
+                        <p>
+
+                            Spitalul Maria a fost infiintat in anul 1972, sub denumirea de “Spitalul Judetean Unificat Nr. 1 Galati”, cladire cu 9 etaje, demisol si subsol, realizata dupa un model englez.
+                        </p>
+
+                        <p>
+                            Spitalul dispune de un ambulatoriu de specialitate, organizat intr-o cladire cu 3 etaje, corp comun cu spitalul.
+                        </p>
+
+                        <p>
+                            Odata cu infiintarea Facultatii de Medicina in cadrul Universitatii “ Dunarea de Jos” din Galati in anul 2004, spitalul isi schimba din nou denumirea in Spitalul Maria”.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -40,7 +51,7 @@ include("header.php");
 
             <!-- Heading -->
             <div class="block-heading-six">
-                <h4 class="bg-color">Echipa noastra</h4>
+                <h4 class="bg-color">Doctori</h4>
             </div>
             <br>
 
@@ -52,9 +63,9 @@ include("header.php");
                         <!-- Team Member -->
                         <div class="team-member">
                             <!-- Image -->
-                            <img class="img-responsive" src="img/team1.jpg" alt="">
+                            <img class="img-responsive" src="img/doctor1.jpg" alt="">
                             <!-- Name -->
-                            <h4>Maria</h4>
+                            <h4>Chebac Gica</h4>
                             <span class="deg">Doctor</span>
                         </div>
                     </div>
@@ -62,9 +73,9 @@ include("header.php");
                         <!-- Team Member -->
                         <div class="team-member">
                             <!-- Image -->
-                            <img class="img-responsive" src="img/team2.jpg" alt="">
+                            <img class="img-responsive" src="img/doctor2.jpg" alt="">
                             <!-- Name -->
-                            <h4>Maria</h4>
+                            <h4>Oprea Daniel</h4>
                             <span class="deg">Chirurg</span>
                         </div>
                     </div>
@@ -72,9 +83,9 @@ include("header.php");
                         <!-- Team Member -->
                         <div class="team-member">
                             <!-- Image -->
-                            <img class="img-responsive" src="img/team3.jpg" alt="">
+                            <img class="img-responsive" src="img/doctor3.jpg" alt="">
                             <!-- Name -->
-                            <h4>Ionut</h4>
+                            <h4>Botezatu Daniela</h4>
                             <span class="deg">Asistent</span>
                         </div>
                     </div>
@@ -82,9 +93,9 @@ include("header.php");
                         <!-- Team Member -->
                         <div class="team-member">
                             <!-- Image -->
-                            <img class="img-responsive" src="img/team4.jpg" alt="">
+                            <img class="img-responsive" src="img/doctor4.jpg" alt="">
                             <!-- Name -->
-                            <h4>Alex</h4>
+                            <h4>Ciolac Mihaela</h4>
                             <span class="deg">Doctor</span>
                         </div>
                     </div>

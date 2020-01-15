@@ -19,3 +19,183 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/nininexloc/public_html/pie/internare.php on line 37
+[28-Nov-2019 16:52:59 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'codbiochimie' doesn't have a default value in /home/nininexloc/public_html/pie/analize.php:119
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(119): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 119
+[28-Nov-2019 16:53:29 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'codbiochimie' doesn't have a default value in /home/nininexloc/public_html/pie/analize.php:119
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(119): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 119
+[28-Nov-2019 17:06:46 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'codbiochimie' doesn't have a default value in /home/nininexloc/public_html/pie/analize.php:119
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(119): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 119
+[09-Jan-2020 16:45:31 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'hfghf' for column `nininexloc_pie`.`analize`.`varsta` at row 1 in /home/nininexloc/public_html/pie/analize.php:143
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 143
+[09-Jan-2020 16:45:41 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'hfghf' for column `nininexloc_pie`.`analize`.`varsta` at row 1 in /home/nininexloc/public_html/pie/analize.php:143
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 143
+[09-Jan-2020 16:45:43 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'hfghf' for column `nininexloc_pie`.`analize`.`varsta` at row 1 in /home/nininexloc/public_html/pie/analize.php:143
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 143
+[09-Jan-2020 16:46:20 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'asdasd' for column `nininexloc_pie`.`analize`.`varsta` at row 1 in /home/nininexloc/public_html/pie/analize.php:143
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 143
+[09-Jan-2020 16:46:23 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'asdasd' for column `nininexloc_pie`.`analize`.`varsta` at row 1 in /home/nininexloc/public_html/pie/analize.php:143
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 143
+[09-Jan-2020 16:46:43 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'asdasd' for column `nininexloc_pie`.`analize`.`varsta` at row 1 in /home/nininexloc/public_html/pie/analize.php:143
+Stack trace:
+#0 /home/nininexloc/public_html/pie/analize.php(143): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/analize.php on line 143
+[09-Jan-2020 16:55:48 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/fisaconsultatii.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/fisaconsultatii.php on line 44
+[09-Jan-2020 17:02:49 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nininexloc/public_html/pie/diagrama.php on line 2
+[09-Jan-2020 17:02:49 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nininexloc/public_html/pie/diagrama.php on line 4
+[09-Jan-2020 17:02:49 Europe/Bucharest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/nininexloc/public_html/pie/diagrama.php on line 19
+[09-Jan-2020 17:02:53 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nininexloc/public_html/pie/diagrama.php on line 2
+[09-Jan-2020 17:02:53 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nininexloc/public_html/pie/diagrama.php on line 4
+[09-Jan-2020 17:02:53 Europe/Bucharest] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/nininexloc/public_html/pie/diagrama.php on line 19
+[09-Jan-2020 17:04:38 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/nininexloc/public_html/pie/pacientinserat.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/pacientinserat.php on line 122
+[09-Jan-2020 17:04:42 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/nininexloc/public_html/pie/pacientinserat.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/pacientinserat.php on line 122
+[09-Jan-2020 17:04:44 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function getMessage() on null in /home/nininexloc/public_html/pie/pacientinserat.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/pacientinserat.php on line 122
+[09-Jan-2020 17:08:03 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?,?,(SELECT codsectie FROM sectie WHERE specializarea='CHIRURGIE'),(SELECT MAX(c' at line 2 in /home/nininexloc/public_html/pie/internare.php:121
+Stack trace:
+#0 /home/nininexloc/public_html/pie/internare.php(121): PDO->query('INSERT INTO int...')
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/internare.php on line 121
+[09-Jan-2020 17:28:56 Europe/Bucharest] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/nininexloc/public_html/pie/index.php on line 2
+[09-Jan-2020 17:28:56 Europe/Bucharest] PHP Warning:  include(login.php): failed to open stream: No such file or directory in /home/nininexloc/public_html/pie/index.php on line 2
+[09-Jan-2020 17:28:56 Europe/Bucharest] PHP Warning:  include(): Failed opening 'login.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/nininexloc/public_html/pie/index.php on line 2
+[09-Jan-2020 18:10:04 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nininexloc/public_html/pie/session.php on line 3
+[09-Jan-2020 18:10:04 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/session.php on line 4
+[09-Jan-2020 18:10:04 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nininexloc/public_html/pie/session.php on line 9
+[09-Jan-2020 18:10:04 Europe/Bucharest] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/nininexloc/public_html/pie/session.php on line 10
+[09-Jan-2020 18:10:04 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nininexloc/public_html/pie/session.php:3) in /home/nininexloc/public_html/pie/profile.php on line 4
+[11-Jan-2020 15:53:12 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/login.php on line 2
+[11-Jan-2020 15:54:01 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/login.php on line 2
+[11-Jan-2020 16:13:56 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:16:26 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:16:41 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:17:20 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:17:30 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:17:47 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:18:36 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:18:43 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:21:22 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/nininexloc/public_html/pie/login.php:18
+Stack trace:
+#0 /home/nininexloc/public_html/pie/index.php(3): include()
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/login.php on line 18
+[11-Jan-2020 16:21:51 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nininexloc/public_html/pie/header.php:1) in /home/nininexloc/public_html/pie/index.php on line 7
+[11-Jan-2020 16:21:51 Europe/Bucharest] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nininexloc/public_html/pie/session.php on line 3
+[11-Jan-2020 16:21:51 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/session.php on line 4
+[11-Jan-2020 16:21:51 Europe/Bucharest] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nininexloc/public_html/pie/session.php on line 9
+[11-Jan-2020 16:21:51 Europe/Bucharest] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/nininexloc/public_html/pie/session.php on line 10
+[11-Jan-2020 16:21:51 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nininexloc/public_html/pie/session.php:3) in /home/nininexloc/public_html/pie/profile.php on line 4
+[11-Jan-2020 16:22:29 Europe/Bucharest] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/nininexloc/public_html/pie/session.php on line 10
+[11-Jan-2020 16:59:58 Europe/Bucharest] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/nininexloc/public_html/pie/logout.php on line 5
+[11-Jan-2020 17:00:40 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nininexloc/public_html/pie/header.php:1) in /home/nininexloc/public_html/pie/index.php on line 7
+[11-Jan-2020 17:06:15 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nininexloc/public_html/pie/header.php:1) in /home/nininexloc/public_html/pie/login-page.php on line 7
+[11-Jan-2020 17:06:15 Europe/Bucharest] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/nininexloc/public_html/pie/header.php:1) in /home/nininexloc/public_html/pie/login-page.php on line 7
+[11-Jan-2020 17:22:43 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/session.php on line 4
+[11-Jan-2020 17:22:57 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/session.php on line 4
+[11-Jan-2020 19:59:51 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/istoricpacienti.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/istoricpacienti.php on line 60
+[11-Jan-2020 20:03:35 Europe/Bucharest] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/nininexloc/public_html/pie/session.php on line 4
+[15-Jan-2020 22:08:58 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'codrezervare' doesn't have a default value in /home/nininexloc/public_html/pie/programari.php:45
+Stack trace:
+#0 /home/nininexloc/public_html/pie/programari.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/programari.php on line 45
+[15-Jan-2020 22:09:55 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'codrezervare' doesn't have a default value in /home/nininexloc/public_html/pie/programari.php:45
+Stack trace:
+#0 /home/nininexloc/public_html/pie/programari.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/programari.php on line 45
+[15-Jan-2020 22:10:07 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1364 Field 'codrezervare' doesn't have a default value in /home/nininexloc/public_html/pie/programari.php:45
+Stack trace:
+#0 /home/nininexloc/public_html/pie/programari.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/programari.php on line 45
+[15-Jan-2020 22:11:35 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'marian' for column `nininexloc_pie`.`rezervari`.`email` at row 1 in /home/nininexloc/public_html/pie/programari.php:45
+Stack trace:
+#0 /home/nininexloc/public_html/pie/programari.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/programari.php on line 45
+[15-Jan-2020 22:11:47 Europe/Bucharest] PHP Fatal error:  Uncaught PDOException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'email' for column `nininexloc_pie`.`rezervari`.`email` at row 1 in /home/nininexloc/public_html/pie/programari.php:45
+Stack trace:
+#0 /home/nininexloc/public_html/pie/programari.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/nininexloc/public_html/pie/programari.php on line 45
+[15-Jan-2020 22:59:32 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/istoricpacienti.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/istoricpacienti.php on line 60
+[15-Jan-2020 23:00:18 Europe/Bucharest] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nininexloc/public_html/pie/istoricpacienti.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/nininexloc/public_html/pie/istoricpacienti.php on line 60
+[15-Jan-2020 23:01:24 Europe/Bucharest] PHP Warning:  mysqli::query(): Empty query in /home/nininexloc/public_html/pie/istoricpacienti.php on line 46
+[15-Jan-2020 23:01:24 Europe/Bucharest] PHP Warning:  Invalid argument supplied for foreach() in /home/nininexloc/public_html/pie/istoricpacienti.php on line 46
